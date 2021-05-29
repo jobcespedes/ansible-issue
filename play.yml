@@ -1,0 +1,7 @@
+- name: search path test
+  hosts: localhost
+  gather_facts: false
+  tasks:
+    - include_role:
+        name: "r2"
+        tasks_from: main.yml

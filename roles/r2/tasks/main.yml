@@ -1,0 +1,5 @@
+- debug:
+    msg: "r2"
+
+- debug:
+    msg: "{{ ansible_search_path }}"
